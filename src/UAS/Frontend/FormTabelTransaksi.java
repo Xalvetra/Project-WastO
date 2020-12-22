@@ -27,10 +27,9 @@ public class FormTabelTransaksi extends javax.swing.JFrame {
     }
     
     public void tampilkanData() {
-        String[] kolom = {"ID", "Pelanggan", "Tanggal Transaksi", "Tanggal Pesan", 
-            "Jenis Paket", "Berat", "Total"};
+        String[] kolom = {"ID", "Pelanggan","Jenis Paket", "Berat","Total"};
         ArrayList<Transaksi> list = new Transaksi().getAll();
-        Object rowData[] = new Object[7];
+        Object rowData[] = new Object[5];
         
         tblTransaksi.setModel(new DefaultTableModel(new Object[][] {}, kolom));
         

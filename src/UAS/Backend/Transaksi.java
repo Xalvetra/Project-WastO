@@ -142,10 +142,13 @@ public class Transaksi implements Tax{
         
         System.out.println(getId_user());
         if (getById(id_transaksi).getId_transaksi() == 0) {
-            String SQL = "INSERT INTO transaksi(id_user,nama, tgl_pesan, " +
-                        " jenis_paket, berat, total) VALUES ('"+ id_user +"', '"+ nama +"', " +
-                        ", '"+jenisPaket+"', '"+berat+"', "+
-                        "'"+getHargaPajak()+"')";
+            String SQL = "INSERT INTO transaksi(id_user, nama, " +
+                        " jenis_paket, berat, total) VALUES "
+                        + "('"+ id_user +"', "
+                        + "'"+ nama +"', "
+                        + "'"+jenisPaket+ "', "
+                        + "'"+berat+"', "
+                        + "'"+getHargaPajak()+"')";
             this.id_transaksi = DBHelper.insertQueryGetId(SQL);
         }
     }
