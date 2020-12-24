@@ -64,7 +64,7 @@ public class FormTabelTransaksi extends javax.swing.JFrame {
         id_userHidden = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
 
-        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(102, 255, 102));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -83,8 +83,8 @@ public class FormTabelTransaksi extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tblTransaksi);
 
-        jButton1.setBackground(new java.awt.Color(0, 102, 204));
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setBackground(new java.awt.Color(102, 255, 102));
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("Tambah Baru");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -92,8 +92,8 @@ public class FormTabelTransaksi extends javax.swing.JFrame {
             }
         });
 
-        btnRefresh.setBackground(new java.awt.Color(0, 102, 204));
-        btnRefresh.setForeground(new java.awt.Color(255, 255, 255));
+        btnRefresh.setBackground(new java.awt.Color(102, 255, 102));
+        btnRefresh.setForeground(new java.awt.Color(0, 0, 0));
         btnRefresh.setText("Refresh");
         btnRefresh.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

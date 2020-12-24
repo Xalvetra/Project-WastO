@@ -186,6 +186,5 @@ public class Kasir extends User{
     
     public String getInfo(){
         return "Info Kasir : " + super.getInfo();
-    }
-    
+    }  
 }

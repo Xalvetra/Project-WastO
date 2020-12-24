@@ -99,7 +99,7 @@ public class FormUser extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
 
-        jPanel1.setBackground(new java.awt.Color(102, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(102, 255, 102));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setForeground(new java.awt.Color(0, 51, 102));
@@ -121,8 +121,8 @@ public class FormUser extends javax.swing.JFrame {
 
         jLabel6.setText("Gaji");
 
-        jButton1.setBackground(new java.awt.Color(0, 102, 204));
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setBackground(new java.awt.Color(102, 255, 102));
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("Simpan");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,8 +130,8 @@ public class FormUser extends javax.swing.JFrame {
             }
         });
 
-        btnReset.setBackground(new java.awt.Color(0, 102, 204));
-        btnReset.setForeground(new java.awt.Color(255, 255, 255));
+        btnReset.setBackground(new java.awt.Color(102, 255, 102));
+        btnReset.setForeground(new java.awt.Color(0, 0, 0));
         btnReset.setText("Reset");
         btnReset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,8 +139,8 @@ public class FormUser extends javax.swing.JFrame {
             }
         });
 
-        btnHapus.setBackground(new java.awt.Color(0, 102, 204));
-        btnHapus.setForeground(new java.awt.Color(255, 255, 255));
+        btnHapus.setBackground(new java.awt.Color(102, 255, 102));
+        btnHapus.setForeground(new java.awt.Color(0, 0, 0));
         btnHapus.setText("Hapus");
         btnHapus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
